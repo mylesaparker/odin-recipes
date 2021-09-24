@@ -1,0 +1,30 @@
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img {
+    height: auto;
+    width: 300px;
+}
+
+.main-page-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-page-title-box .main-page-title {
+    text-transform: capitalize;
+    font-size: 32px;
+    color: rgb(232, 232, 232);
+    background-color: rgb(168, 212, 91);
+}
+
+
+
+
+.list-item{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(168, 212, 91);
+}
