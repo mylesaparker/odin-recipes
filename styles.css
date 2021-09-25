@@ -1,3 +1,7 @@
+body {
+    background-color: #ebebe9;
+}
+
 .image-box {
     display: flex;
     justify-content: center;
@@ -8,23 +12,25 @@
     width: 300px;
 }
 
+
+
 .main-page-title-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .main-page-title-box .main-page-title {
-    text-transform: capitalize;
     font-size: 32px;
-    color: rgb(232, 232, 232);
-    background-color: rgb(168, 212, 91);
+    color: (#ff0000);
 }
 
 
-
-
+.list-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .list-item{
-    font-size: 12px;
+    font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(168, 212, 91);
 }
